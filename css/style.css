@@ -1,0 +1,124 @@
+/* RESET */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* COMMON */
+a{
+    text-decoration: none;
+}
+
+/* Main */
+.ms_img-hotel{
+    width: 100%;
+}
+
+.ms_container{
+    width: 90%;
+    margin: 0 auto;
+}
+.ms_columns{
+    display: flex;
+}
+
+.ms_col{
+    width: calc(100% / 2);
+}
+
+.ms_possibility > div{
+    display: inline-block;
+}
+
+.green{
+    color: #00aa6c;
+}
+
+.red{
+    color: red;
+    text-decoration: line-through;
+}
+
+.discount-price{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.price{
+    line-height: 25px;
+    padding: 1rem 0;
+}
+
+.btn-orange{
+    background-color: #f2b203;
+    font-weight: 700;
+    margin-top: 1rem;
+    border-radius: 15px;
+    border: transparent;
+}
+
+.check{
+    font-weight: bold;
+}
+
+.weight{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width: 992px) {
+    .ms_card-hotel{
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .ms_container{
+        width: 70%;
+    }
+    
+    .ms_img-container{
+        width: 30%;
+    
+    }
+    
+    .ms_img-container img{
+        width: 100%;
+    }
+    
+    .ms_flex-container{
+        display: flex;
+    }
+
+    .ms_discount{
+        order:1;
+        width: 40%;
+        
+
+    }
+
+    .ms_hotel-description{
+        order:3;
+        width: 40%;
+        
+    }
+
+    .ms_discount-site{
+        order: 2;
+        text-align: center;
+        width: 20%;
+    }
+
+    .ms_columns{
+        display: block;
+    }
+
+    .price{
+        text-align: center;
+    }
+
+    .ms_col{
+        width: 100%;
+    }
+}
